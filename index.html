@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+   
+    <style>
+        body{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f8ff;
+            display: flex;
+        }
+.container{
+    background-color:lightgray;
+    
+    width: 300px;
+    
+    border-radius: 10px;
+    flex-direction: column;
+    border: 2px solid #4caf50;
+    
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 0 40px rgba(0, 0, 255, 0.3); /* Blue glow */
+
+    
+
+}
+.content h2{
+    font-size: 24px;
+    margin-left: 60px;
+    text-decoration: underline;
+}
+.content p{
+    font-size: 1.5rem;
+    color: #555;
+    margin-left: 10px;
+}
+.mybutton{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: white;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 90px;
+}
+img{
+    width: 100px;
+    height: 100px;
+    margin-left: 90px;
+    margin-bottom:15px;
+}
+.child{
+     height: 100px;
+     width: 100px;
+     padding-right: 150px;
+}
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+       <div  class="child">
+        <img src="icon.png" alt="Sonal's Photo" >
+       </div> 
+
+    <div class="content">
+        <h2>Sonal Chikane</h2>
+        <p>A web developer builds, and maintains websites, ensuring performance, and user experience. They work with languages like HTML, CSS, JavaScript to create responsive web applications.</p>
+    </div>
+    
+     <div>
+        <button onclick="window.location.href='https://github.com/ChikaneSonal'" class="mybutton">View Profile</button>
+
+     </div>   
+    </div>
+
+</body>
+
+</html>
